@@ -5,8 +5,8 @@ body:
     attributes:
       label: "I've already checked other feature proposals"
       options:
-        - 'Yes'
-        - 'No'
+        - label: 'Yes'
+        - label: 'No'
   - type: dropdown
     attributes:
       label: Is your feature request related to a problem?
@@ -14,15 +14,17 @@ body:
         - 'Yes'
         - 'No'
   - type: markdown
-    value: |
-      "A clear and concise description of what the problem is. Ex. I'm always frustrated when ..."
     attributes:
+        value: |
+          "A clear and concise description of what the problem is. Ex. I'm always frustrated when ..."
         required: true
   - type: markdown
-    value: A clear and concise description of what you want to happen.
     attributes:
+      value: A clear and concise description of what you want to happen.
       required: true
   - type: markdown
-    value: A clear and concise description of any alternative solutions or features you've considered.
+    attributes:
+      value: A clear and concise description of any alternative solutions or features you've considered.
   - type: markdown
-    value: Add any other context or screenshots about the feature request here.
+    attributes:
+      value: Add any other context or screenshots about the feature request here.
