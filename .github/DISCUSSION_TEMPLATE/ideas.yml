@@ -5,8 +5,8 @@ body:
     attributes:
       label: "I've already checked other feature proposals"
       options:
-        - label: 'Yes'
-        - label: 'No'
+        - 'Yes'
+        - 'No'
     validations:
       required: true
   - type: dropdown
