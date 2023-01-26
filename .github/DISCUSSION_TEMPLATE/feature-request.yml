@@ -15,12 +15,14 @@ body:
         - 'No'
   - type: markdown
     attributes:
-        value: |
-          "A clear and concise description of what the problem is. Ex. I'm always frustrated when ..."
-        required: true
+      value: |
+        "A clear and concise description of what the problem is. Ex. I'm always frustrated when ..."
+    validations:
+      required: true
   - type: markdown
     attributes:
       value: A clear and concise description of what you want to happen.
+    validations:
       required: true
   - type: markdown
     attributes:
