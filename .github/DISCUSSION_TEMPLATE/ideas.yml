@@ -1,18 +1,22 @@
 title: "[Feature]: "
 labels: ["ideas"]
 body:
-  - type: checkboxes
+  - type: dropdown
     attributes:
       label: "I've already checked other feature proposals"
       options:
         - label: 'Yes'
         - label: 'No'
+    validations:
+      required: true
   - type: dropdown
     attributes:
       label: Is your feature request related to a problem?
       options:
         - 'Yes'
         - 'No'
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Describe your problem.
